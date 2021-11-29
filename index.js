@@ -38,12 +38,6 @@ const promptQuestions = [
             }
         },
         {
-            type: 'confirm',
-            name: 'confirmToc',
-            message: 'Would you like to provide a table of contents?',
-            default: true  //need to handle this at Readme generation
-        },
-        {
             type: 'input',
             name: 'projectInst',
             message: 'Input installation instructions.',
@@ -51,7 +45,7 @@ const promptQuestions = [
         {
             type: 'input',
             name: 'projectUsage',
-            message: 'Discuss usage information.',
+            message: 'Discuss how to use the application.',
         },
         {
             type: "list",
@@ -62,7 +56,7 @@ const promptQuestions = [
         {
             type: 'input',
             name: 'projectCont',
-            message: 'Discuss contribution guidelines.',
+            message: 'Insert contributors or third party apps used.',
         },
         {
             type: 'input',
@@ -72,7 +66,7 @@ const promptQuestions = [
         {
             type: 'input',
             name: 'projectQuest',
-            message: 'Insert questions.',
+            message: 'Insert question or concern links.',
         },
 ];
 
