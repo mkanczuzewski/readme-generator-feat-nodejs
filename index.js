@@ -51,7 +51,7 @@ const promptQuestions = [
             type: "list",
             name: "license",
             message: "Please select the license you chose.",
-            choices: ["N/A", "MIT", "Apache 2.0", "GNU", "ISC", "IBM"]
+            choices: ["N/A", "Apache 2.0", "GNU", "IBM", "ISC", "MIT"]
         },
         {
             type: 'input',
