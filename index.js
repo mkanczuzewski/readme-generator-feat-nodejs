@@ -65,8 +65,13 @@ const promptQuestions = [
         },
         {
             type: 'input',
-            name: 'projectQuest',
-            message: 'Insert question or concern links.',
+            name: 'projectemail',
+            message: 'Insert contact email links.',
+        },
+        {
+            type: 'input',
+            name: 'projectgitHub',
+            message: 'Insert GitHub links.',
         },
 ];
 

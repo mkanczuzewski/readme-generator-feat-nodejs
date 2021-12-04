@@ -34,31 +34,31 @@ function renderLicenseLink(license)
 {
   if (license === "N/A") 
   {
-    return "";
+    return "License is not applicable.";
   }
   if (license === "Apache 2.0") 
   {
-    return `[https://opensource.org/licenses/Apache-2.0]`;
+    return `https://opensource.org/licenses/Apache-2.0`;
   } 
 
   else if (license === "GNU") 
   {
-    return `[https://opensource.org/licenses/lgpl-3.0.html]`;
+    return `https://opensource.org/licenses/lgpl-3.0.html`;
   } 
 
   else if (license === "IBM") 
   {
-    return `[https://opensource.org/licenses/IPL-1.0]`;
+    return `https://opensource.org/licenses/IPL-1.0`;
   }
 
   else if (license === "ISC") 
   {
-    return `[https://opensource.org/licenses/ISC]`;
+    return `https://opensource.org/licenses/ISC`;
   } 
 
   else if (license === "MIT") 
   {
-    return `[https://opensource.org/licenses/MIT]`;
+    return `https://opensource.org/licenses/MIT`;
   }
 
 }
@@ -89,7 +89,7 @@ function generateMarkdown(data) {
   * [License Badge](#license)
   * [Contributions](#contributions)
   * [Testing](#testing)
-  * [Questions](#questions)
+  * [Contact](#contact)
    
   ## Installation
   ${data.projectInst}
@@ -106,8 +106,9 @@ function generateMarkdown(data) {
   ## Testing
   ${data.projectTest}
 
-  ## Questions
-  ${data.projectQuest}
+  ## Contact
+  ${data.projectemail}
+  ${data.projectgitHub}
 `;
 }
 
