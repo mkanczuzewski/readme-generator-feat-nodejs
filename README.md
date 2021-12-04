@@ -19,7 +19,7 @@
   First, install google chrome, gitbash, visual studio code if you wish to review the code. Second, install node.js from https://nodejs.org/en/ ; npm will automatically be installed as well as inquirer.  Third, clone the code down to a local repository. Fourth, go to the root of the project’s local directory and run “npm init” from a command line prompt. Fifth, from the same folder run “npm install” and then “npm install inquirer”. Lastly, type in “npm index.js” to run the program. 
 
   ## Usage
-  As this project is used to create readme files for projects and is ready to do so for yours! Walkthrough Video: TBD
+  As this project is used to create readme files for projects and is ready to do so for yours! Walkthrough Video: https://github.com/mkanczuzewski/readme-generator-feat-nodejs/blob/main/dist/Walkthrough.webm
 
   ## License
   https://opensource.org/licenses/ISC
